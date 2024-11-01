@@ -478,6 +478,24 @@ a:hover {
     justify-content: space-around;
 }
 
+.table-btn {
+    padding: 2.5rem 0 3.75rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.table-btn button {
+    background-color: #202020;
+    padding: 14px 24px;
+    border-radius: 0.6rem;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.table-btn button:nth-child(2) {
+    margin: 0 1.25rem;
+}
+
 .time-table {
     display: flex;
 }
@@ -487,28 +505,38 @@ a:hover {
     flex-direction: column;
     /* justify-content: center; */
     width: 50%;
+    margin-right: 1.8rem;
 }
 
-.table-produce table {
-    /* width: 50%; */
-    /* margin: 0 auto; */
-    border-collapse: collapse;
+.table-produe {
+    margin: 0 auto;
 }
 
-.curriculum table th {
-    padding: 1rem;
+table {
+    /* background-color: #ddd; */
+    width: 50%;
+    table-layout: auto;
+    border-spacing: 1.8rem 0;
+}
+
+table th {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
     border-bottom: 1px solid #D0013D;
+}
+
+table td {
+    border-bottom: 1px dashed #D0013D;
+    padding: 10px 0px;
+}
+
+table tr:nth-last-child(1) {
+    border-bottom: 1px solid #D0013D;
+}
+
+table tr,
+td {
     text-align: center;
-}
-
-.curriculum table th {
-    /* background-color: #D0013D; */
-    color: #fff;
-}
-
-.curriculum table td {
-    background-color: #444;
-    color: #ddd;
 }
 
 /* Location Section */
